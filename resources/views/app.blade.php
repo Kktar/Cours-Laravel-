@@ -4,17 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>hello-city</title>
+        <title>@yield('title','page inexistant !')</title>
     </head>
     <body >
-
-      <h1> Salam wa Gay-i-Dior</h1>
-      <p>It's currently {{ date('H:i ') }}.</p>
-
-
+        @yield('content')
 
       <footer>
-        <p>&copy;Copyright {{ date('Y')}} &middot; <a href="/about-us">About US</a></p>
+        <p>
+            &copy;Copyright {{ date('Y')}} &middot;
+            <a href="/about-us">About US</a>
+        </p>
       </footer>
 
     </body>
