@@ -12,7 +12,7 @@
       <p><a href="/">Revenir à la page d'acceuil </a></p>
 
       <footer>
-        <p>&copy;Copyright {{ date('Y')}} &middot; <a href="/about-us">About US</a></p>
+        <p>&copy;Copyright {{ date('Y')}} &middot;</p>
       </footer>
 
     </body>
