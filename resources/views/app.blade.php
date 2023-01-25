@@ -11,9 +11,14 @@
 
       <footer>
         <p>
-            &copy;Copyright {{ date('Y')}} &middot;
-            <a href="{{ route('about')}}">About US</a>
-        </p>
+            &copy;Copyright {{ date('Y')}} 
+              
+            @if (Route::is('home'))
+              &middot;<a href="{{ route('about')}}">About US</a>
+            @endif
+            
+        
+          </p>
       </footer>
 
     </body>
