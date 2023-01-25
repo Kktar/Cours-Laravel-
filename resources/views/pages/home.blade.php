@@ -5,6 +5,7 @@
 
 @section('content')
 
+      <img src="/img/village.jpg " alt="Village"/>
       <h1> Salam wa Gay-i-Dior</h1>
       <p>It's currently {{ date('H:i ') }}.</p>
 
