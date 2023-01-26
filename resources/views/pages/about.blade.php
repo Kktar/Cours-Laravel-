@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app',['title'=>'About-Us'])
 
 @section('title','About-Us | '.config('app.name'))
 
@@ -14,7 +14,7 @@
       </h2>
 
       <p>
-            <a href="{{ route('home') }}" class="text-indigo-500
+            <a href="{{ route('about') }}" class="text-indigo-500
             hover:text-indigo-600 underline">Revenir à la page d'acceuil </a>
       </p>
 
